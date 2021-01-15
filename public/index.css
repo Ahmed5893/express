@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(204, 184, 158);
+  }
+  
+  .nav-bar {
+    background-color: black;
+    color: cornsilk;
+    height: 50px;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .nav-list li {
+  margin-top: 10px;
+  list-style:none;
+  font-size: 15pt;
+  border:3px solid #ccc;
+  border-radius: 20px;
+  box-shadow: #ccc;
+  padding: 3px;
+  }
+  .nav-list button{
+    background-color: black;
+    font-size: 15pt;
+  }
+  .nav-list a{
+    text-decoration: none;
+    color:blanchedalmond
+  }
